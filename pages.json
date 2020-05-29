@@ -1,0 +1,526 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "壹口两口",
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+				// "enablePullDownRefresh":true
+			}
+		}
+	    ,{
+            "path" : "pages/pocket/pocket",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+				
+			}
+        }
+        ,{
+            "path" : "pages/vip/vip",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/share/share",
+			
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/invitation/invitation",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/productlist/productlist",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+       
+        ,{
+            "path" : "pages/earnings/earnings",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/share/video",
+			
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/buy/buy",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/orderList/orderList",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"订单列表"
+			}
+        }
+        ,{
+            "path" : "pages/account/account",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/contactUs/contactUs",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"联系我们"
+			}
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"收货地址",
+				"enablePullDownRefresh":true
+			}
+        }
+        ,{
+            "path" : "pages/editAddress/editAddress",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"收货地址"
+			}
+        }
+        ,{
+            "path" : "pages/association/association",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"我的社群"
+			}
+        }
+        ,{
+            "path" : "pages/myGloup/myGloup",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"我的社群"
+			}
+        }
+		,{
+		    "path" : "pages/cancel/cancel",
+		    "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"交易详情"
+			}
+		},{
+		    "path" : "pages/logistics-details/logistics-details",
+		    "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"交易详情"
+			}
+		},{
+		    "path" : "pages/pre-order/pre-order",
+		    "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"交易详情"
+			}
+		},{
+            "path" : "pages/coupon/coupon",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"优惠券"
+			}
+        },{
+			"path" : "pages/settle-accounts/settle-accounts",
+			"style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+		},{
+			"path" : "pages/red-packet/red-packet",
+			"style" : 
+				{
+					"app-plus":{"titleNView":false},//去掉顶部导航栏
+					"navigationBarTitleText":"壹口两口"
+				}
+		},{
+		    "path" : "pages/integral-center/integral-center",
+		    "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"积分中心"
+			}
+		},{
+		    "path" : "pages/seckill/seckill",
+		    "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        },{
+		    "path" : "pages/useredit/useredit",
+		    "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"修改信息"
+			}
+        }
+		
+        ,{
+            "path" : "pages/checkOrders/checkOrders",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/blankJump/blankJump",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/index-search/index-search",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/newPeople/newPeople",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/shareCoupon/shareCoupon",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"分享优惠券"
+			}
+        }
+        ,{
+            "path" : "pages/shareQrCode/shareQrCode",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"分享优惠券"
+			}
+        }
+        ,{
+            "path" : "pages/myCardBag/myCardBag",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"我的卡包"
+			}
+        }
+        ,{
+            "path" : "pages/addBankCard/addBankCard",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"银行卡信息"
+			}
+        }
+        ,{
+            "path" : "pages/creatAlipay/creatAlipay",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"支付宝信息"
+			}
+        }
+        ,{
+            "path" : "pages/sellOut/sellOut",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+		,{
+		    "path" : "pages/myBill/myBill",
+		    "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"我的账单"
+				
+			}
+		}
+		,{
+            "path" : "pages/sharePosters/sharePosters",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        },
+		{
+		    "path" : "pages/end-post/end-post",
+		    "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+		}
+        ,{
+            "path" : "pages/share/choiceness",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/share/live",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/share/shareLive",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/QRcode/QRcode",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/share/LiveToShare",
+            "style" : {
+        		"app-plus":{"titleNView":false},//去掉顶部导航栏
+        		"navigationBarTitleText":"壹口两口"
+        	}
+        }
+        ,{
+            "path" : "pages/share/playback",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/CommunityToShare/CommunityToShare",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/share/PlaybackShare",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/CommunityToShare/CustomerPosters",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/CommunityToShare/GroupOfQRcode",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/indentSheet/indentSheet",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/buy/have_open_id",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/settle-accounts/Point_mall_settlement",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"壹口两口"
+			}
+        }
+        ,{
+            "path" : "pages/productlist/CardTicketCenter",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"卡券中心"
+			}
+        }
+        ,{
+            "path" : "pages/productlist/AllProductilist",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/cloudWarehouse/cloudWarehouse",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"云仓"
+			}
+        }
+        ,{
+            "path" : "pages/cloudWarehouse/WarehouseMine",
+            "style" : {"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"云仓"}
+        }
+        ,{
+            "path" : "pages/cloudWarehouse/WarehouseStock",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"我要进货"
+			}
+        }
+        ,{
+            "path" : "pages/cloudWarehouse/MyApproval",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"我的审批"
+			}
+        }
+        ,{
+            "path" : "pages/cloudWarehouse/pickUpGoods",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"我要提货"
+			}
+        }
+        ,{
+            "path" : "pages/cloudWarehouse/warehouseLogin",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"云仓登录"
+			}
+        }
+        ,{
+            "path" : "pages/cloudWarehouse/perfectInformation",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"完善信息"
+			}
+        }
+        ,{
+            "path" : "pages/cloudWarehouse/AuthorizedPosters",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"代理授权书"
+			}
+        }
+        ,{
+            "path" : "pages/cloudWarehouse/DialTheCargo",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"我要拨货"
+			}
+        }
+        ,{
+            "path" : "pages/cloudWarehouse/PickUpGoodsDetail",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"提货明细"
+			}
+        }
+        ,{
+            "path" : "pages/cloudWarehouse/PurchaseDetails",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"进货明细"
+			}
+        }
+        ,{
+            "path" : "pages/cloudWarehouse/Scanning_outbound",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"扫描出库"
+			}
+        }
+        ,{
+            "path" : "pages/cloudWarehouse/ScanCodeChanges",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"扫码变更"
+			}
+        }
+        ,{
+            "path" : "pages/inware/inware",
+            "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"navigationBarTitleText":"扫码显示"
+			}
+        }
+        ,{
+            "path" : "pages/remove/remove",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "壹口两口",
+		"navigationBarBackgroundColor": "#53aefc",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh":true
+	}
+	// "tabBar": {
+	//     "color": "#7A7E83",
+	//     "selectedColor": "#3cc51f",
+	//     "borderStyle": "black",
+	//     "backgroundColor": "#ffffff",
+	//     "list": [{
+	//         "pagePath": "pages/index/index",
+	//         "iconPath": "static/images/APP-01_0007_DI-1.png",
+	//         "selectedIconPath": "static/images/APP-01_0003_DI-choose1.png",
+	//         "text": "首页"
+	//     }, {
+	//         "pagePath": "pages/share/share",
+	//         "iconPath": "static/images/APP-01_0006_DI-2.png",
+	//         "selectedIconPath": "static/images/APP-01_0002_DI-choose2.png",
+	//         "text": "分享"
+	//     }, {
+	//         "pagePath": "pages/vip/vip",
+	//         "iconPath": "static/images/APP-01_0006_DI-2.png",
+	//         "selectedIconPath": "static/images/APP-01_0002_DI-choose2.png",
+	//         "text": "会员中心"
+	//     }, {
+	//         "pagePath": "pages/pocket/pocket",
+	//         "iconPath": "static/images/APP-01_0005_DI-3.png",
+	//         "selectedIconPath": "static/images/APP-01_0001_DI-choose3.png",
+	//         "text": "口袋"
+	//     }, {
+	//         "pagePath": "pages/mine/mine",
+	//         "iconPath": "static/images/APP-01_0004_DI-4.png",
+	//         "selectedIconPath": "static/images/APP-01_0000_DI-choose4.png",
+	//         "text": "我的"
+	//     }]
+	// }
+}
